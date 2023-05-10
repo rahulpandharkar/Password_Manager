@@ -1,12 +1,18 @@
 # Password Manager
-A very basic project developed using HTML, CSS and PHP to save a user's passwords of all websites at one place.
+A basic web based Password Manager tool to save user passwords and retrieve them. 
 
-The front end gives an user to Register, Log In and once either of the two procedures are done, a dashboard appears. This dashboard gives the user options to either add a new password record to the backend database or to find a particular record from the database.
 
-The fields provided for entering records are: Domain Name of the website, Username on the website to be added, Password on the website to be added. 
-The record is found by entering the Domain Name of the website. Once it is entered, the webpage gives you the username and password of that particular website.
+-> Prerequisites 
+1. MySQL Environment 
+2. Xampp: https://www.apachefriends.org/download.html
 
-Access the project source-code files which are named according to their function. 
 
-Note: 
-The project has some bugs and is not completely optimized for industrial use.
+-> Steps to Execute 
+
+Step 1: Run Xampp, start the Apache and MySQL Server
+Step 2: Import the file 'data.sql' into your SQL Enviornment [You can also use phpmyadmin to import it, visit localhost/phpmyadmin on your browser] 
+Step 3: In the folder 'htdocs' of Xampp, paste all of the source code files except 'data.sql' 
+Step 4: Now run 'homepage.html' file in your browser
+
+NOTE: The project is very basic and might have some bugs
+
